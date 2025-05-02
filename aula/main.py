@@ -1,18 +1,6 @@
-def desligar():
-    print('Desligando...')
+numero = int(input('Digite um numero para ver sua taboada: '))
+cont = 0
 
-def reiniciar():
-    print('reiniciando...')
-
-def suspender():
-    print('suspender...')
-
-acoes = {
-    'desligar': desligar,
-    'reiniciar': reiniciar,
-    'suspender': suspender
-}
-
-comando = input('digite oque deseja fazer (desligar, reiniciar ou suspender)')
-
-acoes.get(comando, lambda: print('desconhecido')) ()
+for cont in range(1, 11):
+    print(f'{numero} * {cont} = {numero*cont}')
+    cont += 1
