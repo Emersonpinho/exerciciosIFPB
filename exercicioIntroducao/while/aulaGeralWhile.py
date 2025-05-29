@@ -6,8 +6,7 @@ while c < 10:
 
 print('fim')'''
 
-n = 1
-while n != 0:
-    n = int(input('Digite um número(0 para fechar):'))
-    n += n
+r = 'sim'
+while r == 'sim':
+    r = input('Deseja continuar?(sim/ não) ').lower()
 print('fim')
