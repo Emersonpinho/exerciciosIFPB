@@ -2,12 +2,12 @@ cont = 1
 soma = 0
 
 while cont < 11:
-    numPosi = int(input('Digite um número positivo: '))
+    numPar = int(input('Digite um número positivo: '))
 
-    if numPosi % 2 == 0:
+    if numPar % 2 == 0:
         cont += 1
-        soma += numPosi
+        soma += numPar
     else:
-        print(f'ERROR!$#: O número {numPosi} é IMPAR')
+        print(f'ERROR!$#: O número {numPar} é IMPAR')
 
 print(f'A soma de todos os Números PARES: {soma}')
