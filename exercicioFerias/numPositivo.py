@@ -6,9 +6,8 @@ while cont <= 10:
 
     if num > 0:
         soma += num
+        cont += 1
     else:
         print('Numero digitado não é positivo')
-
-    cont += 1
 
 print(soma)
