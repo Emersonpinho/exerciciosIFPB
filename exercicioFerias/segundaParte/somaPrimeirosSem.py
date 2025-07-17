@@ -1,8 +1,15 @@
 i = 1
 soma = 0
-
+expresao = ''
 while i <= 100:
     soma += i
-    i+=1
 
-print(f'a soma dos 100 primeiros numeros é {soma}')
+    expresao += str(i)
+    if i < 100:
+        expresao += '+'
+    else:
+        expresao += '='
+    
+    i+=1
+    
+print(f'{expresao}{soma}')
