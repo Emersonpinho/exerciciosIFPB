@@ -1,7 +1,7 @@
 i = 1
 
-menorIdade = 0
-maiorIdade = 0
+menorIdade = 100000
+maiorIdade = -10000
 
 sexoMasculino = 0
 sexoFeminino = 0
@@ -37,5 +37,6 @@ print(f'Total de SEXO MASCULINO:{sexoMasculino}')
 print(f'Total de SEXO FEMININO:{sexoFeminino}')
 # como a variavel 'i' sever para o total de alunos so somei a idade total e dividir pelo total de alunos(i)
 print(f'Media de IDADE:{idadeTotal/i:.2f}')
-
+print(f'Maior idade foi {maiorIdade}')
+print(f'Menor idade foi {menorIdade}')
 
