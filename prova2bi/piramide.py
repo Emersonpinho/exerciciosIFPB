@@ -8,4 +8,3 @@ while i >= 1:
         j-=1
     print()
     i -= 1
-    
