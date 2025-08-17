@@ -1,3 +1,4 @@
+# QUESTÂO 1
 numeroSecreto = 76
 tentativa = 5
 c = 1
