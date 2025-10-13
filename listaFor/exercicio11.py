@@ -4,7 +4,6 @@ expressao = ' '
 
 for c in range(1, 101):
     soma += c
-
     expressao += str(c)
 
     if c < 100:
