@@ -1,0 +1,4 @@
+# ordem decresente
+
+for x in range(10, 1, -1):
+    print(x, end=' ')
