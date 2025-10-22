@@ -1,3 +1,5 @@
+# exercicio ainda imcompleto
+
 nomes = [0] * 800
 matriculas = [0] * 800
 emails = [0] * 800
