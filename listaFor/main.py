@@ -1,12 +1,12 @@
-list = [0]
-print('oi')
-i = 0
-while True:
-    n = int(input('Digite um número: '))
-    n += list[i]
-    
-    if n == -1:
-        break
+lista = [4, 6, 7, 2, 8, 9, 1]
+existe = 0
 
+n = int(input('Digite um numero: '))
 
-print(list[0:i])
+for i in range(len(lista)):
+
+    if lista[i] == n:
+        existe = 1
+
+print(existe)
+
