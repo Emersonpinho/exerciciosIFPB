@@ -4,7 +4,7 @@ nomes = [0] * 800
 matriculas = [0] * 800
 emails = [0] * 800
 cursos = [0] * 800
-opcoes = ['Cadastrar um aluno', 'Listar todos os alunos', 'Pesquisar um aluno', 'Atualizar os dados de um aluno']
+opcoes = ['Cadastre um aluno', 'Listar todos os alunos', 'Pesquisar um aluno', 'Atualizar os dados de um aluno']
 contador = 0
 
 while True:
