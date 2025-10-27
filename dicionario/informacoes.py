@@ -65,7 +65,7 @@ print()
 
 print('----Informe os dados da PESSOA-----')
 pessoa['Nome'] = str(input('Digite o nome da pessoa: '))
-pessoa['Idade'] = int(input(f'Digite a idade de {pessoa["Nome"]}: '))
+pessoa['Idade'] = int(input(f'Digite a idade de {pessoa['Nome']}: '))
 pessoa['Sexo'] = str(input(f'Informe o sexo de {pessoa['Nome']}: '))
 
 print('\nINFORMAÇÕES CADASTRADA COM SUCESSO!')
@@ -101,7 +101,7 @@ print()
 
 print('---Informe os dados do PROFESSOR---')
 professor['Nome'] = str(input('Digite o nome do professor: '))
-professor['Aréa de ensino'] = str(input('Digite a aréa de ensino do professor (Ex: Geografia, matemática e etc): '))
+professor['Área de ensino'] = str(input('Digite a área de ensino do professor (Ex: Geografia, matemática e etc): '))
 professor['Idade'] = int(input('Digite a idade do professor: '))
 
 print('\nINFORMAÇÕES CADASTRADA COM SUCESSO!')
