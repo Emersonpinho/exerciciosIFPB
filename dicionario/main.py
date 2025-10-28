@@ -4,4 +4,6 @@ d = {'pedro': 1000,
      'carlos': 750,
      'ricardo': 2500}
 
+d2 = {'Ana': 1500}
+
 print(len(d))
