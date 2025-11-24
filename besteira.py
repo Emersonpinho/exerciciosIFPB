@@ -1,7 +1,11 @@
-livro = [1, 2, 3, 4, 5, 6, 7, ['a maldade da cidade']]
+num = [0]*10
 
-livro1 = {
-    'Capitulos': 'A maldade da cidade',
-    'Ano': 2024,
-    'autor': 'Albert'
-}
+for c in range(10):
+    num[c] = int(input('Digite um número: '))
+
+saida = int(input('Digite o alvo: '))
+
+for j in num:
+    print(c)
+
+print(num)

@@ -60,3 +60,5 @@ while True:
         for c in range(contador):
             if codigos[c] == pesq:
                 print(f'\nLivro ENCONTRADO: \nTítulo: {titulos[c]}\nCodigo: {codigos[c]}\n')
+
+    elif opcao == 6:
