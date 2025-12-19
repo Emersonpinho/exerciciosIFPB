@@ -5,3 +5,4 @@ if num > 20:
     print(div)
 else:
     print(num)
+    
