@@ -62,3 +62,4 @@ while True:
                 print(f'\nLivro ENCONTRADO: \nTítulo: {titulos[c]}\nCodigo: {codigos[c]}\n')
 
     elif opcao == 6:
+        continue
